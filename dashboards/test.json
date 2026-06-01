@@ -1,1 +1,61 @@
-a
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "datasource": null,
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "content": "# Git Sync Smoke Test\n\nIf you can see this dashboard in Grafana Cloud, Git Sync is working.\n\n- Repo-managed dashboard\n- No datasource required\n- Safe first test",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.0.0",
+      "title": "Welcome",
+      "type": "text"
+    }
+  ],
+  "refresh": "",
+  "schemaVersion": 39,
+  "tags": [
+    "git-sync",
+    "test"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Git Sync Smoke Test",
+  "uid": "git-sync-smoke-test",
+  "version": 1,
+  "weekStart": ""
+}
